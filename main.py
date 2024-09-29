@@ -10,7 +10,6 @@ from pyrogram.types import Message
 import pyrogram
 import tgcrypto
 from p_bar import progress_bar
-from details import api_id, api_hash, bot_token
 from subprocess import getstatusoutput
 import helper
 import logging
@@ -27,9 +26,9 @@ import re
 import os
 import io
 
-API_ID = 22170620
-API_HASH = "8c15defa8633511dd14b19b5770cb9e8"
-BOT_TOKEN = "7146439451:AAHWUl57EYfvc1GpSuSjoiohxl15JW2zxtY"
+API_ID = "27309858"
+API_HASH = "db2420265b9b2e6602f487fa3f102ba6"
+BOT_TOKEN = "6425512691:AAGZsJN5rok4KHvUgwat5YgfkAQXmAdHJCM"
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
