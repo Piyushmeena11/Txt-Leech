@@ -19,7 +19,6 @@ import aiohttp
 import asyncio
 import aiofiles
 from pyrogram.types import User, Message
-from progressor import progress_for_pyrogram
 import sys
 import re
 import os
